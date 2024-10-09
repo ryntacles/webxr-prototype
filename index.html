@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | WebXR_Test</title>
+    <title>Unity WebGL Player | XRI Examples</title>
     <meta name="description" content="">
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
@@ -24,20 +24,20 @@
         <button id="entervr" value="Enter VR" disabled>VR</button>
         <button id="enterar" value="Enter AR" disabled>AR</button>
         <div id="unity-webxr-link">Using <a href="https://github.com/De-Panther/unity-webxr-export" target="_blank" title="WebXR Export">WebXR Export</a></div>
-        <div id="unity-build-title">WebXR_Test</div>
+        <div id="unity-build-title">XRI Examples</div>
       </div>
     </div>
     <script>
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/WebXR_Build.loader.js";
+      var loaderUrl = buildUrl + "/unity-prototype.loader.js";
       var config = {
-        dataUrl: buildUrl + "/WebXR_Build.data",
-        frameworkUrl: buildUrl + "/WebXR_Build.framework.js",
-        codeUrl: buildUrl + "/WebXR_Build.wasm",
+        dataUrl: buildUrl + "/unity-prototype.data",
+        frameworkUrl: buildUrl + "/unity-prototype.framework.js",
+        codeUrl: buildUrl + "/unity-prototype.wasm",
         streamingAssetsUrl: "StreamingAssets",
-        companyName: "DefaultCompany",
-        productName: "WebXR_Test",
-        productVersion: "0.1",
+        companyName: "Unity Technologies",
+        productName: "XRI Examples",
+        productVersion: "2.4.0",
       };
 
       var container = document.querySelector("#unity-container");
